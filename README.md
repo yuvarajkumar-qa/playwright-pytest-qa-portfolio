@@ -5,6 +5,8 @@ UI tests covering sign-in, shopping cart updates, and checkout on SauceDemo, bui
 ## What's Tested
 * **Sign-in (`tests/test_login.py`):** Normal login (`@pytest.mark.smoke`) and blocked login for locked-out accounts (`@pytest.mark.regression`).
 * **Cart & Checkout (`tests/test_checkout.py`):** Adding an item, checking the cart badge count, finishing an order (`@pytest.mark.smoke`), and making sure checkout stops when the postal code is left blank (`@pytest.mark.regression`).
+* **QA Strategy & Bug Notes (`docs/test_strategy.md`, `docs/bug_reports.md`):** Risk priorities, smoke vs. regression scope, edge cases, and defect write-ups.
+
 
 ## Folder Structure
 ```text
